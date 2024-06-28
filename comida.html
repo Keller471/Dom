@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/material-icons.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <header class="comida">
+        <a href="index.html" class="iconos link f25 zmil">
+            arrow_back
+        </a>
+        <div class="degrade">
+            <div class="portada">
+                
+            </div>
+        </div>
+            <div class="nombrePlato">Estofado</div>
+            <div class="valorPlato"></div>
+        
+    </header>
+    <main class="comida">
+            <p>Descripcion
+            </p>
+            <input type="text" class="nota" >
+            
+            <nav class="agregarCarrito">
+                <div class="flex">
+                    <div class="flex">
+                        <button id="restar" class="iconos botonCarrito" onclick="restar()">remove</button>
+                        <p class="botonCarrito" id="cantidad">2</p>
+                        <button id="sumar" class="iconos botonCarrito" onclick="sumar()">add</button>
+                    </div>
+                    <button class="btnAgregar"><i class="iconos">post_add</i>Agregar al pedido</button>
+                </div>
+                <span id="subTotal"></span>
+            </nav>
+    </main>
+    <script src="js/acciones.js"></script>
+</body>
+
+</html>
